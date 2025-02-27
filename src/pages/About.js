@@ -1,4 +1,4 @@
-import profile from '../assets/dandiya.jpg';
+import profile from '../assets/lehenga.jpg';
 
 const About = () => {
   return (

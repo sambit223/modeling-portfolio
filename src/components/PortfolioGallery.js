@@ -9,30 +9,30 @@ import image7 from "../assets/dandelui.jpg";
 import image8 from "../assets/white.jpg";
 
 const images = [
-    { src: image1, caption: "Runway Look – Classic White Denim" },
-    { src: image2, caption: "Indoor Beauty Shoot – Natural Aesthetic" },
-    { src: image3, caption: "Handloom Campaign – Odisha Heritage" },
-    { src: image4, caption: "Streetwear look – Effortless Casual" },
-    { src: image5, caption: "Cultural Fashion Story – Temple Series" },
-    { src: image6, caption: "Designer Collaboration – Swaah Label" },
-    { src: image7, caption: "Traditional Elegance – Red Lehenga Series" },
-    { src: image8, caption: "Contemporary Ethnic Wear – Functional Edit" },
-  ];
-  
+  { src: image1, caption: "Runway Look – Classic White Denim" },
+  { src: image2, caption: "Indoor Beauty Shoot – Natural Aesthetic" },
+  { src: image3, caption: "Handloom Campaign – Odisha Heritage" },
+  { src: image4, caption: "Streetwear look – Effortless Casual" },
+  { src: image5, caption: "Cultural Fashion Story – Temple Series" },
+  { src: image6, caption: "Designer Collaboration – Swaah Label" },
+  { src: image7, caption: "Traditional Elegance – Red Lehenga Series" },
+  { src: image8, caption: "Contemporary Ethnic Wear – Functional Edit" },
+];
 
 const PortfolioGallery = () => {
   return (
-    <div className="min-h-screen py-12 px-6 border-t-0 shadow-sm">
-      <h1 className="text-5xl font-bold text-center text-gray-900 mb-2">My Portfolio Gallery</h1>
-      <p className="text-center text-lg text-gray-700 mb-10">
+    <div className="py-12 px-6 border-t-0 shadow-sm">
+      <h1 className="text-5xl font-bold text-center text-gray-900 mb-4">My Portfolio Gallery</h1>
+      <p className="text-center text-lg text-gray-700 mb-6">
         Showcasing my journey through fashion, editorial, and brand collaborations.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      {/* Grid layout: Single column on mobile, multi-column on larger screens */}
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {images.map((image, index) => (
           <div
             key={index}
-            className="relative group overflow-hidden shadow-lg border border-gray-200 transition-transform duration-500 ease-in-out transform hover:scale-105 hover:shadow-2xl"
+            className="relative w-full max-w-md mx-auto group overflow-hidden shadow-lg border border-gray-200 transition-transform duration-500 ease-in-out transform hover:scale-105 hover:shadow-2xl"
           >
             <img
               src={image.src}

@@ -12,7 +12,7 @@ import Interests from "./components/Interests";
 function App() {
   return (
     <Router>
-      <div className="bg-gradient-to-br from-pink-100 to-pink-300 min-h-screen text-gray-800">
+      <div className="bg-gradient-to-br from-pink-100 to-pink-300  text-gray-800">
         <Home />
         <About/>
         <ModelStats/>

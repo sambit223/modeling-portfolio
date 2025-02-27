@@ -5,7 +5,7 @@ const ModelStats = () => {
   return (
     <div className="p-6">
       {/* Profile & Stats Section */}
-      <div className="flex flex-col md:flex-row items-center  shadow-lg rounded-lg p-8  w-full">
+      <div className="flex flex-col md:flex-row items-center  shadow-lg rounded-lg p-12  w-full">
         {/* Profile Picture */}
         <div className="w-60 h-60 overflow-hidden rounded-full border-4 border-pink-400 shadow-lg">
           <img src={profilePic} alt="Model Profile" className="w-full h-full object-cover" />

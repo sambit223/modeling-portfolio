@@ -20,11 +20,11 @@ const ModelStats = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-6 text-gray-700">
             <div className="text-center border-l-4 border-pink-400 pl-4">
               <p className="text-lg font-semibold">Height</p>
-              <p className="text-2xl font-bold">163cm / 5.41ft</p>
+              <p className="text-2xl font-bold">166cm / 5.44ft</p>
             </div>
             <div className="text-center border-l-4 border-pink-400 pl-4">
               <p className="text-lg font-semibold">Weight</p>
-              <p className="text-2xl font-bold">52 kg</p>
+              <p className="text-2xl font-bold">54 kg</p>
             </div>
             <div className="text-center border-l-4 border-pink-400 pl-4">
               <p className="text-lg font-semibold">Shoulders</p>

@@ -7,8 +7,10 @@ import image5 from "../assets/purple.jpg";
 import image6 from "../assets/black backstage.jpeg";
 import image7 from "../assets/dandelui.jpg";
 import image8 from "../assets/white.jpg";
+import image9 from "../assets/lehpic.jpeg";
 
 const images = [
+  { src: image9, caption: "Collaboration shoot (engagement look) with MUA-Lucky (Instagram:- @_makeupby_lucky)" },
   { src: image1, caption: "Runway Look – Classic White Denim" },
   { src: image2, caption: "Indoor Beauty Shoot – Natural Aesthetic" },
   { src: image3, caption: "Handloom Campaign – Odisha Heritage" },
@@ -17,6 +19,7 @@ const images = [
   { src: image6, caption: "Designer Collaboration – Swaah Label" },
   { src: image7, caption: "Traditional Elegance – Red Lehenga Series" },
   { src: image8, caption: "Contemporary Ethnic Wear – Functional Edit" },
+
 ];
 
 const PortfolioGallery = () => {

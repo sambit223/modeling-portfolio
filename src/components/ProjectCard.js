@@ -2,6 +2,7 @@ import React from "react";
 import image1 from "../assets/yellow bastra.jpeg";
 import image2 from "../assets/model stage.jpeg";
 import image3 from "../assets/black stage.jpeg";
+import image4 from "../assets/Jd.jpeg";
 
 const ProjectCard = () => {
   return (
@@ -49,7 +50,7 @@ const ProjectCard = () => {
               </p>
             </div>
             <h3 className="text-center text-lg font-semibold mt-2 text-gray-800">
-              Designer: Crass V | Role: Showstopper
+              Designer: CRASS | Role: Lead Model
             </h3>
           </div>
 
@@ -66,7 +67,23 @@ const ProjectCard = () => {
               </p>
             </div>
             <h3 className="text-center text-lg font-semibold mt-2 text-gray-800">
-              Designer: Swaah V | Role: Show Opener
+              Designer: Swaah | Role: Show Stopper
+            </h3>
+          </div>
+
+          <div className="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src={image4}
+              alt="Brand Partnership"
+              className="w-full h-80 object-cover transition-transform duration-700 ease-in-out group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-in-out">
+              <p className="text-white text-lg px-6 text-center">
+                Collaborating with <strong>JD Design awards 2025</strong>
+              </p>
+            </div>
+            <h3 className="text-center text-lg font-semibold mt-2 text-gray-800">
+              Design Collection: Hex & Hiss | Role: Lead Model
             </h3>
           </div>
         </div>

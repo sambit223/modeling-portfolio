@@ -6,7 +6,7 @@ const About = () => {
       {/* Flex container - Switched left and right */}
       <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6 md:gap-8">
         
-        {/* Right Section - Description (Moved to Left) */}
+        {/* Right Section - DescriptionY(Moved to Left) */}
         <div className="w-full md:w-1/2 text-gray-800 text-base sm:text-lg leading-relaxed px-4 order-2 md:order-1">
           <p>
             Hi, I’m <strong>Sunena Sahu</strong>, a fashion model from Gajapati, Odisha. I have worked with multiple brands, 
